@@ -1,42 +1,47 @@
-.container {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
+/* Styling for Navigation Bar */
 .navbar {
-  background-color: navy;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  align-items: center;
+  background-color: #5a23c8;
+  padding: 10px;
 }
 
-.navLink {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
+.navbar h1 {
   font-weight: bold;
-}
-
-.heroTitle {
-  font-size: 40px;
   color: white;
-  margin-top: 50px;
-  text-align: center;
 }
 
-.paragraph {
+.navbar a {
+  color: white;
+  margin-right: 20px;
+}
+
+/* Styling for Hero Title */
+.hero {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Styling for Paragraph */
+.paragraph p {
+  color: white;
   font-size: 20px;
-  color: white;
-  margin: 50px 100px;
-  text-align: justify;
+  text-align: center;
+  margin-top: 50px;
 }
 
+/* Styling for Footer */
 .footer {
-  background-color: navy;
+  background-color: #5a23c8;
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
  
