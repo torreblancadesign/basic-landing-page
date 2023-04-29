@@ -9,14 +9,14 @@ const Component = () => {
         <a href="#" className={styles.navLink}>Projects</a>
         <a href="#" className={styles.navLink}>Sign In</a>
       </nav>
-      <main className={styles.main}>
+      <main>
         <h1 className={styles.heroTitle}>Basic Landing</h1>
         <p className={styles.paragraph}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu metus a massa ultrices ullamcorper vel id elit. Praesent bibendum purus eget dapibus iaculis.
         </p>
       </main>
       <footer className={styles.footer}>
-        <p className={styles.footerText}>Copyright © 2021
+        <p>Copyright  2021
         </p>
       </footer>
     </div>
@@ -24,3 +24,4 @@ const Component = () => {
 };
 
 export default Component;
+ 
