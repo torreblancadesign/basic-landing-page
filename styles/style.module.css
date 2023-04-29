@@ -1,0 +1,41 @@
+.container {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.navbar {
+   background-color: navy;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+.navLink {
+   color: white;
+   text-decoration: none;
+   margin-left: 20px;
+   font-weight: bold;
+}
+
+.heroTitle {
+   font-size: 40px;
+   color: white;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.paragraph {
+   font-size: 20px;
+   color: white;
+   margin: 50px 100px;
+   text-align: justify;
+}
+
+.footer {
+   background-color: navy;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
