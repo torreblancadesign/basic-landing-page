@@ -17,10 +17,13 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "next": "^9.4.4"
+    "next": "^9.4.4",
+    "@babel/core": "^7.14.0",
+    "core-js": "^3.6.5"
   },
   "engines": {
     "node": "14.x"
   }
 }
+
  
